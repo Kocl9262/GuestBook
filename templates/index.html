@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Filton</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <div class="title">
+        <center><h1>Pohvale in Pritozbe</h1></center>
+    </div>
+
+    <div class="container">
+        <form method="post" action="/poslano">
+            <p>Ime in priimek: <input class="name" name="ime" placeholder="Janez Novak"></p>
+            <p>Email: <input class="email" name="email" placeholder="primer@nekje.com" type="email"></p>
+            <p>* Sporocilo: <textarea class="sporocilo" name="sporocilo" placeholder="Tukaj napisi sporocilo" required></textarea></p>
+            <p class="zvezdica">Polja z * so obvezna</p>
+            <button class="b-poslji">Poslji</button>
+        </form>
+    </div>
+</body>
+</html>

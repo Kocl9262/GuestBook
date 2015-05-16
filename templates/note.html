@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Filton</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <h1>Sporocilo</h1>
+
+    <p><span class="podatki">Datum:</span> {{ note.created.strftime('%H:%M:%S %d.%m.%Y') }}</p>
+    <p><span class="podatki">Ime:</span> {{ note.ime }}</p>
+    <p><span class="podatki">Email:</span> <a href="mailto:{{ note.email }}" type="mail">{{ note.email }}</a></p>
+    <p><span class="podatki">Sporočilo:</span> {{ note.sporocilo }}</p>
+    <p><span class="podatki">ID:</span> {{ note.key.id() }}</p>
+
+</body>
+</html>

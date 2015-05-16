@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;
+}
+.title {
+    margin-right: 50px;
+}
+textarea {
+    height: 200px;
+    width: 400px;
+    margin-top: -18px;
+}
+.sporocilo {
+    margin-left: 104px;
+}
+input {
+    width: 250px;
+}
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 510px;
+}
+.email {
+    margin-left: 57px;
+}
+.b-poslji {
+    position: absolute;
+    left: 103px;
+}
+.zvezdica {
+    font-size: 10px;
+    float: right;
+    margin-top: -8px;
+}
+.podatki {
+    font-weight: bold;
+}
