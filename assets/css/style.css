@@ -4,16 +4,14 @@ body {
 .title {
     margin-right: 50px;
 }
-textarea {
+.sporocilo {
+    margin-left: 104px;
     height: 200px;
     width: 400px;
     margin-top: -18px;
 }
-.sporocilo {
-    margin-left: 104px;
-}
-input {
-    width: 250px;
+.input {
+    min-width: 250px;
 }
 .container {
     position: relative;
@@ -28,6 +26,10 @@ input {
 .b-poslji {
     position: absolute;
     left: 103px;
+}
+.b-sporocila {
+    position: absolute;
+    left: 155px;
 }
 .zvezdica {
     font-size: 10px;

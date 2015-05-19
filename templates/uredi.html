@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Filton</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <h2>Uredi sporocilo</h2>
+    <form method="post" action="/note/{{ note.key.id() }}/uredi">
+        <p>Ime: <input class="input" name="uredi_ime" value="{{ note.ime }}"></p>
+        <p>Email: <input class="input" name="uredi_email" value="{{ note.email }}" type="email"></p>
+        <p>Sporocilo: <input class="input" name="uredi_sporocilo" value="{{ note.sporocilo }}"></p>
+        <button>OK</button>
+    </form>
+
+</body>
+</html>

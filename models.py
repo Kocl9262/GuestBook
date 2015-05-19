@@ -6,3 +6,4 @@ class Sporocilo(ndb.Model):
     email = ndb.StringProperty()
     sporocilo = ndb.TextProperty()
     created = ndb.DateTimeProperty(auto_now_add=True)
+    izbrisano = ndb.BooleanProperty(default=False)

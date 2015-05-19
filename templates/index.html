@@ -14,12 +14,13 @@
 
     <div class="container">
         <form method="post" action="/poslano">
-            <p>Ime in priimek: <input class="name" name="ime" placeholder="Janez Novak"></p>
-            <p>Email: <input class="email" name="email" placeholder="primer@nekje.com" type="email"></p>
+            <p>Ime in priimek: <input class="name input" name="ime" placeholder="Janez Novak"></p>
+            <p>Email: <input class="email input" name="email" placeholder="primer@nekje.com" type="email"></p>
             <p>* Sporocilo: <textarea class="sporocilo" name="sporocilo" placeholder="Tukaj napisi sporocilo" required></textarea></p>
             <p class="zvezdica">Polja z * so obvezna</p>
             <button class="b-poslji">Poslji</button>
         </form>
+        <a href="/sporocila"><button class="b-sporocila">Seznam</button></a>
     </div>
 </body>
 </html>

@@ -16,5 +16,10 @@
     <p><span class="podatki">Sporočilo:</span> {{ note.sporocilo }}</p>
     <p><span class="podatki">ID:</span> {{ note.key.id() }}</p>
 
+    <a href="/"><button>Domov</button></a>
+    <a href="/sporocila"><button>Nazaj</button></a>
+    <a href="/note/{{ note.key.id() }}/uredi"><button>Uredi</button></a>
+    <a href="/note/{{ note.key.id() }}/izbrisi"><button>Izbrisi</button></a>
+
 </body>
 </html>

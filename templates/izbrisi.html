@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Filton</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <h1>Si preprican, da zelis izbrisati sporocilo?</h1>
+
+    <p>Ime: {{ note.ime }}</p>
+    <p>Sporocilo: {{ note.sporocilo }}</p>
+    <p>ID: {{ note.key.id() }}</p>
+
+    <form method="post" action="/note/{{ note.key.id() }}/izbrisi">
+        <button>Izbrisi</button>
+    </form>
+
+</body>
+</html>
